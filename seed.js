@@ -38,7 +38,6 @@ function updatePage()
     const options = {weekday: 'long', month: 'long', day: 'numeric'};
     dayTextElement.textContent = today.toLocaleDateString("en-US", options);
 
-
 }
 
 // update the page on load
