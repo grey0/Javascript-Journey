@@ -21,6 +21,7 @@ function totalAmount()
 {
     return (dayNum * (dayNum + 1)) / 2;
 }
+
 console.log(totalAmount());
 
 function updatePage()
